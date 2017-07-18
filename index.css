@@ -1,0 +1,64 @@
+body
+{
+   background-color: #D1D1D1;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 400px;
+   top: 0px;
+   width: 512px;
+   height: 209px;
+   z-index: 1;
+}
+#Html1
+{
+   position: absolute;
+   left: 400px;
+   top: 209px;
+   width: 512px;
+   height: 126px;
+   z-index: 0;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #D1D1D1;
+   background-image: none;
+}
+#Html1
+{
+   left: 55px;
+   top: 176px;
+   width: 390px;
+   height: 132px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Image1
+{
+   left: 53px;
+   top: 0px;
+   width: 390px;
+   height: 166px;
+   visibility: visible;
+   display: inline;
+}
+}
